@@ -34,7 +34,6 @@ namespace Tema2_TamanyoTexto
             else if (tag.Equals("mid"))
                 textTextBlock.FontSize = 48;
             else textTextBlock.FontSize = 72;
-
         }
     }
 }

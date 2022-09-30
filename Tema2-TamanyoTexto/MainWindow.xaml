@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema2_TamanyoTexto"
         mc:Ignorable="d"
-        Title="Tamaño Texto" Height="343.111" Width="959.264">
+        Title="Tamaño Texto" Height="343.111" Width="959.264" Icon="assets/icon.ico">
     <Grid>
         <TextBlock x:Name="textTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Desarrollo de interfaces" VerticalAlignment="Top" Margin="10,45,0,0" Height="87" Width="931" FontSize="48" FontWeight="Bold" TextAlignment="Center">
             <TextBlock.Foreground>
