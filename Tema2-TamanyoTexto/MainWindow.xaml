@@ -8,6 +8,9 @@
         Title="Tamaño Texto" Height="343.111" Width="959.264" Icon="assets/icon.ico">
     <Grid>
         <TextBlock x:Name="textTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Desarrollo de interfaces" VerticalAlignment="Top" Margin="10,45,0,0" Height="87" Width="931" FontSize="48" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect/>
+            </TextBlock.Effect>
             <TextBlock.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF4724E6" Offset="0"/>
@@ -15,7 +18,7 @@
                 </LinearGradientBrush>
             </TextBlock.Foreground>
         </TextBlock>
-        <RadioButton Content="Pequeño" Tag="peq" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="168.045,215.829,0,0" Height="43.413" Width="88.004" VerticalContentAlignment="Center" UseLayoutRounding="False" GroupName="letterSize" RenderTransformOrigin="0.5,0.5" Checked="RadioButton_Checked">
+        <RadioButton Content="Pequeño" Tag="36" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="168.045,215.829,0,0" Height="43.413" Width="88.004" VerticalContentAlignment="Center" UseLayoutRounding="False" GroupName="letterSize" RenderTransformOrigin="0.5,0.5" Checked="RadioButton_Checked">
             <RadioButton.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -25,7 +28,7 @@
                 </TransformGroup>
             </RadioButton.RenderTransform>
         </RadioButton>
-        <RadioButton Content="Mediano" Tag="mid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="439.809,216.898,0,0" Height="43.413" Width="86.401" VerticalContentAlignment="Center" UseLayoutRounding="False" GroupName="letterSize" RenderTransformOrigin="0.5,0.5" Checked="RadioButton_Checked" IsChecked="True">
+        <RadioButton Content="Mediano" Tag="48" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="439.809,216.898,0,0" Height="43.413" Width="86.401" VerticalContentAlignment="Center" UseLayoutRounding="False" GroupName="letterSize" RenderTransformOrigin="0.5,0.5" Checked="RadioButton_Checked" IsChecked="True">
             <RadioButton.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -35,7 +38,7 @@
                 </TransformGroup>
             </RadioButton.RenderTransform>
         </RadioButton>
-        <RadioButton Content="Grande" Tag="gran" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="696.341,215.83,0,0" Height="43.413" Width="86.401" VerticalContentAlignment="Center" UseLayoutRounding="False" GroupName="letterSize" RenderTransformOrigin="0.5,0.5" Checked="RadioButton_Checked">
+        <RadioButton Content="Grande" Tag="72" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="696.341,215.83,0,0" Height="43.413" Width="86.401" VerticalContentAlignment="Center" UseLayoutRounding="False" GroupName="letterSize" RenderTransformOrigin="0.5,0.5" Checked="RadioButton_Checked">
             <RadioButton.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="2" ScaleY="2"/>

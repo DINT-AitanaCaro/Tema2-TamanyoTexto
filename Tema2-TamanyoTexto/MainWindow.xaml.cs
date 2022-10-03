@@ -28,12 +28,8 @@ namespace Tema2_TamanyoTexto
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
             RadioButton b = (RadioButton)sender;
-            string tag = (String)b.Tag;
-            if (tag.Equals("peq"))
-                textTextBlock.FontSize = 36;
-            else if (tag.Equals("mid"))
-                textTextBlock.FontSize = 48;
-            else textTextBlock.FontSize = 72;
+            double tam = Double.Parse(b.Tag.ToString());
+            textTextBlock.FontSize = tam;
         }
     }
 }
